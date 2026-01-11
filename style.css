@@ -16,151 +16,66 @@ body{
     background-color: #e8edf6;
 }
 
-
-header img{
-    width: 10rem;
-    margin-left: 2rem;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-    background-color: white;
-    padding: 2rem;
-    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15)
-}
-
-a{
-    text-decoration: none;
-}
-
-nav ul{
-    display: flex;
-    gap: 2rem;
-    text-transform: uppercase;
-    list-style: none;
-}
-
-.contem-filhos{
-    position: relative;
-}
-
-.contem-filhos ul{
-    display: none;
-    flex-direction: column;
-    width: max-content;
-    right: 0;
-    position: absolute;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 1.5rem;
-    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15)
-}
-
-.contem-filhos:hover ul{
-    display: flex;
-}
-
-
 h1{
-   font-weight: bold;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 1;
 }
 
-h1
-
-.sessao-hero-geral{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header img{
-    width: 15rem;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+h2{
+    font-size: 3.5rem;
+    font-weight: 400;
 }
 
 ul{
     list-style: none;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-}
-
-.contem-filhos{
-    position: relative;
-}
-.contem-filhos ul{
-    position: absolute;
-    display: none;
-    gap: 2rem;
-    flex-direction: column;
-    width: max-content;
-    align-items: start;
-    right: 0;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15)
-
-}
-
-.contem-filhos:hover ul{
-    display: flex;
-}
-
-li a{
-    text-transform: uppercase;
+a{
     text-decoration: none;
+}
+
+/* a:link,
+a:visited{
+    color: #112e61;
+} */
+/* a:hover,
+a:active{
+    color: #f60;
+
 } */
 
 
-/* header{
+
+header img{
+    width: 10rem;
+    margin-left: 2rem;
+
+}
+
+header{
+    position: sticky;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    background-color: white;
     gap: 2rem;
+    background-color: white;
+    padding: 1.8rem 2.5rem;
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15)
 }
 
 nav ul{
     display: flex;
-    align-items: center;
+    margin-top: 1rem;
     gap: 2rem;
+    text-transform: uppercase;
+    color: #112e61;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.contem-filhos::after{
+    content: "\2BC6";
 }
 
 .contem-filhos{
@@ -168,16 +83,14 @@ nav ul{
 }
 
 .contem-filhos ul{
-    position: absolute;
     display: none;
-    right: 0;
-    gap: 2rem;
-    flex-direction: column;
     align-items: start;
+    right: 0;
+    flex-direction: column;
+    position: absolute;
+    padding: 1rem;
     background-color: white;
-    list-style: none;
     width: max-content;
-    padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15)
 }
@@ -186,8 +99,40 @@ nav ul{
     display: flex;
 }
 
+.contem-filhos ul a, .item-cabecalho a{
+    color: #112e61;
+}
 
-.contem-filhos a{
-    text-decoration: none;
-    text-transform: uppercase;
-} */
+.item-cabecalho a:hover,
+.contem-filhos a:hover,
+a:active{
+    color: #f60;
+
+}
+
+.sessao-hero-geral{
+    background: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato Novo/BACKGROUN-banner-01.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 1000px;
+}
+
+.botao-hero{
+    background-image: linear-gradient(180deg, #ff645e, #ff9253);
+    border-radius: 1rem;
+    padding: 1.28 2.5rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: white;
+}
+
+.iframe-hero{
+    width: 42rem;
+    aspect-ratio: 16/9;
+    border-radius: 1.2rem;
+}
+
+.container{
+    display: flex;;
+}
