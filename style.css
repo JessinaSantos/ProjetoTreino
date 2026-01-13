@@ -110,12 +110,85 @@ a:active{
 
 }
 
-.sessao-hero-geral{
+
+.sessao-hero{
+    background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato Novo/BACKGROUN-banner-01.webp");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    
+}
+
+.geral-hero{
+    display: flex !important;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.botao-hero{ 
+    padding: 0.7rem;
+    background-image: linear-gradient(180deg, #ff645e, #ff9253);
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: white;
+}
+
+.hero-botao{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.container{
+    display: flex;
+}
+
+.iframe-hero{
+    width: 42rem;
+    aspect-ratio: 16/9;
+    border-radius: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sessao-hero-geral{
     background: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato Novo/BACKGROUN-banner-01.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    max-width: 1000px;
 }
 
 .botao-hero{
@@ -134,5 +207,6 @@ a:active{
 }
 
 .container{
-    display: flex;;
-}
+    display: flex;
+    align-items: center;
+} */
