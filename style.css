@@ -116,11 +116,80 @@ a:active{
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    padding-top: 2rem;
     
 }
 
-.geral-hero{
-    display: flex !important;
+.container{
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 3.12rem;
+    align-items: center;
+}
+
+
+.paragrafo-hero{
+    font-size: 1.92rem;
+    
+}
+
+.botao{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: 0.82rem 2.5rem;
+    display: inline-block;
+}
+
+.botao-hero{
+    background-image: linear-gradient(180deg, #ff645e, #ff9253);
+
+}
+
+.hero-botao{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    flex: 6;
+    /* width: 50%; */
+}
+
+.iframe-hero{
+    aspect-ratio: 16/9;
+    border-radius: 1.2rem;
+    flex: 5;
+    width: 40rem;
+    height: 28rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .geral-hero{
+    display: flex;
     flex-direction: column;
     gap: 2rem;
     width: 50%;
@@ -133,6 +202,7 @@ a:active{
     font-weight: 700;
     font-size: 2.4rem;
     color: white;
+    display: block;
 }
 
 .hero-botao{
@@ -150,7 +220,7 @@ a:active{
     width: 42rem;
     aspect-ratio: 16/9;
     border-radius: 1.2rem;
-}
+} */
 
 
 
