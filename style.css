@@ -152,6 +152,20 @@ nav ul{
     width: 100rem;
     margin: 0 auto;
     padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.gratuito-coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.teste{
+    display: flex;
+    gap: 1.6rem;
+    justify-content: center;
 }
 
 .titulo-gratuito{
@@ -179,14 +193,23 @@ nav ul{
 }
 .bloco-gratuito p{
     font-size: 2rem;
+  
 }
 
 .bloco-gratuito-treinamento{
     box-shadow: inset 0 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.15);
     border-radius: 2.5rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 }
 
+.conteudo-caixa-logo{
+    display: flex;
+    gap: 1rem;
+}
 .circulo-gratuito{
     display: inline-block;
     background-color: #e7e7e7;
@@ -200,14 +223,84 @@ nav ul{
     width: 100%;
 }
 
-.caixa-rede-social{
-    background-color: #eeeeee;
-    display: inline-block;
+.caixa-redes{
+    display: inline-flex;   
+    flex-direction: column;
+    gap: 1.6rem;
 }
+
 
 .caixa-rede-social img{
     width: 1.8rem;
 }
+
+.caixa-rede-social a{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    padding: 0.6rem 3rem;
+    background-color: #e7e7e7;
+    border-radius: 1.5rem;
+}
+
+
+.programacao-gratuito{
+    background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    transform: rotate(-3deg);
+}
+
+.circulo-programacao{
+    display: inline-block;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    padding: 0.82rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.circulo-programacao img{
+    width: 100%;
+}
+
+.programacao-geral-gratuito{
+    box-shadow: inset 0 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.15);
+    border-radius: 2.5rem;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.conteudo-treinamento{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+
+
+
+
+/* .circulo-gratuito{
+    display: inline-block;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    padding: 0.82rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.circulo-gratuito img{
+    width: 100%;
+} */
+
 
 
 
