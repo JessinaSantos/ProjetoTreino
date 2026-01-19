@@ -49,8 +49,14 @@
 // delete venda.produto;
 // console.log(venda);
 
-let estoque = [12, 20, 10, 50];
-let novoEstoque = [...estoque];
-novoEstoque[0] = 10;
-console.log(novoEstoque);
-console.log(estoque);
+// let estoque = [12, 20, 10, 50];
+// let novoEstoque = [...estoque];
+// novoEstoque[0] = 10;
+// console.log(novoEstoque);
+// console.log(estoque);
+
+function teste(nome) {
+  console.log(`ola ${nome}!`);
+}
+
+teste("jessy");
