@@ -55,8 +55,18 @@
 // console.log(novoEstoque);
 // console.log(estoque);
 
-function teste(nome) {
-  console.log(`ola ${nome}!`);
+// function saudacao(nome) {
+//   console.log(`Olá ${nome}. Seja bem vindo`);
+// }
+
+// saudacao("Jessy");
+
+let nome = "Jessy";
+let preco = 10;
+let qtd = 2;
+let total = preco * qtd;
+function teste() {
+  console.log(total);
 }
 
-teste("jessy");
+teste();
