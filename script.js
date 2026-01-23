@@ -139,19 +139,121 @@
 // console.log(`Salário final: R$ ${salarioFinal.toFixed(2)}`);
 // calcularSalarioLiquido(8, 22, 25);
 
-function calcularMediaSimples(n1, n2) {
-  const media = (n1 + n2) / 2;
-  return media;
-}
+// function calcularMediaSimples(n1, n2) {
+//   const media = (n1 + n2) / 2;
+//   return media;
+// }
 
-function calcularMediaComRecuperacao(n1, n2, recuperacao) {
-  const mediaRP = calcularMediaSimples(n1, n2);
-  const MediaFinal = (mediaRP + recuperacao) / 2;
-  if (mediaRP >= 7) {
-    console.log(mediaRP);
-  } else {
-    console.log(MediaFinal);
+// function calcularMediaComRecuperacao(n1, n2, recuperacao) {
+//   const mediaRP = calcularMediaSimples(n1, n2);
+//   const MediaFinal = (mediaRP + recuperacao) / 2;
+//   if (mediaRP >= 7) {
+//     console.log(mediaRP);
+//   } else {
+//     console.log(MediaFinal);
+//   }
+// }
+
+// calcularMediaComRecuperacao(5, 9, 6);
+
+// function somarNumeros(num1, num2) {
+//   let soma = num1 + num2;
+//   return soma;
+// }
+
+// console.log(somarNumeros(2, 7));
+
+// function verificarPar(num1) {
+//   if (num1 % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(verificarPar(3));
+
+// const array = [10, 12, 34, 50];
+
+// function mediaNumeros(array) {
+//   return (array[0] + array[1] + array[2] + array[3]) / array.length;
+// }
+
+// console.log(mediaNumeros(array));
+
+// function subtrair(num1, num2) {
+//   return num1 - num2;
+// }
+
+// console.log(subtrair(10, 5));
+
+// function multiplicar(num1, qtd) {
+//   return num1 * qtd;
+// }
+
+// console.log(multiplicar(5, 2));
+//---------------------------------------------------------------//-----------------------------------------------------
+// const array = [2, 2, 2, 2];
+
+// function somaArray(array) {
+//   let soma = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     soma += array[i];
+//   }
+//   return soma;
+// }
+
+// console.log(somaArray(array));
+
+//---------------------------------------------------------------//-----------------------------------------------------
+
+// let valor1 = "Olá";
+// let valor2 = "Mundo";
+
+// function concatenaString(valor1, valor2) {
+//   return `${valor1}  ${valor2}`;
+// }
+
+// console.log(concatenaString(valor1, valor2));
+
+// let nomes = ["Maria", "João", "Alan", "Fred"];
+// let letra = "a";
+
+// function filtraNomes(nomes, letra) {
+//   for (let i = 0; i < nomes.length; i++) {
+//     valorNomes = nomes[i];
+//     if (letra in valorNomes) {
+//       let novoArray = [valorNomes];
+//     }
+//   }
+//   return novoArray;
+// }
+
+// console.log(filtraNomes(nomes, letra));
+
+// let classificacao = 2;
+
+// function classificaMedalha(posicao) {
+//   if (classificacao === 1) {
+//     return "Ouro";
+//   }
+//   if (classificacao === 2) {
+//     return "Prata";
+//   }
+//   if (classificacao === 3) {
+//     return "Bronze";
+//   } else {
+//     return "Sem medalha";
+//   }
+// }
+
+// console.log(classificaMedalha(classificacao));
+
+num = 9;
+function contagemRegressiva(num) {
+  for (i = 0; i < num.length; i++) {
+    let decremento = num - num[i];
+    return console.log(decremento);
   }
 }
-
-calcularMediaComRecuperacao(5, 9, 6);
+contagemRegressiva(num);
