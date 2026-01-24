@@ -231,6 +231,22 @@
 
 // console.log(filtraNomes(nomes, letra));
 
+// let nomes = ["Maria", "João", "Alan", "Fred"];
+// let letra = "a";
+
+// function filtraNomes(nomes, letra) {
+//   let novoArray = []; // Inicializa o array fora do loop
+//   for (let i = 0; i < nomes.length; i++) {
+//     if (nomes[i].includes(letra)) {
+//       // Use includes para verificar a letra
+//       novoArray.push(nomes[i]); // Adiciona ao novo array
+//     }
+//   }
+//   return novoArray; // Retorna o array com os nomes filtrados
+// }
+
+// console.log(filtraNomes(nomes, letra)); // Saída: ["Maria", "João"]
+
 // let classificacao = 2;
 
 // function classificaMedalha(posicao) {
@@ -249,11 +265,104 @@
 
 // console.log(classificaMedalha(classificacao));
 
-num = 9;
-function contagemRegressiva(num) {
-  for (i = 0; i < num.length; i++) {
-    let decremento = num - num[i];
-    return console.log(decremento);
-  }
-}
-contagemRegressiva(num);
+// num = 9;
+// function contagemRegressiva(num) {
+//   for (i = 0; i < num.length; i++) {
+//     let decremento = num - num[i];
+//     return console.log(decremento);
+//   }
+// }
+// contagemRegressiva(num);
+
+// let array = [
+//   { nome: "Ana", idade: 25 },
+//   { nome: "Carlos", idade: 32 },
+//   { nome: "Marina", idade: 19 },
+// ];
+
+// function listarNomes(array) {
+//   let lista = [];
+//   for (i = 0; i < array.length; i++) {
+//     lista.push(array[i].nome);
+//   }
+//   return lista;
+// }
+
+// console.log(listarNomes(array));
+
+// let array = [
+//   { produto: "Camisa", preco: 59.9 },
+//   { produto: "Calça", preco: 120 },
+//   { produto: "Tênis", preco: 299.9 },
+// ];
+
+// function calcularTotalCarrinho(array) {
+//   let valor = [];
+//   let soma = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     valor.push(array[i].preco);
+//     soma = soma + valor[i];
+//   }
+//   return soma;
+// }
+
+// console.log(calcularTotalCarrinho(array));
+
+// function calcularTotalCarrinho(array) {
+//   let soma = 0;
+
+//   for (let i = 0; i < array.length; i++) {
+//     soma += array[i].preco;
+//   }
+
+//   return soma;
+// }
+
+// let array = [
+//   { nome: "Lucas", idade: 17 },
+//   { nome: "Fernanda", idade: 22 },
+//   { nome: "João", idade: 15 },
+// ];
+
+// function filtrarMaioresDeIdade(array) {
+//   let pessoas = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i].idade >= 18) {
+//       pessoas = array[i];
+//     }
+//   }
+//   return pessoas.nome;
+// }
+
+// console.log(filtrarMaioresDeIdade(array));
+
+// let array = [
+//   { nome: "Notebook", preco: 3500 },
+//   { nome: "Mouse", preco: 150 },
+//   { nome: "Teclado", preco: 250 },
+// ];
+
+// function buscarProduto(array, produto) {
+//   for (i = 0; i < array.length; i++) {
+//     if (array[i].nome === produto) {
+//       return array[i];
+//     }
+//   }
+
+//   return null;
+// }
+
+// console.log(buscarProduto(array, produto));
+
+// function calcularPrecoProduto(array, produto, quantidade) {
+//   let produtoEncontrado = buscarProduto(array, produto);
+//   if (produtoEncontrado === null) {
+//     return null;
+//   }
+
+//   return produtoEncontrado.preco * quantidade;
+// }
+
+// console.log(calcularPrecoProduto(array, produto, quantidade));
+
+
