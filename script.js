@@ -365,4 +365,106 @@
 
 // console.log(calcularPrecoProduto(array, produto, quantidade));
 
+// const produtos = [
+//   { nome: "Livro", preco: 40 },
+//   { nome: "Caderno", preco: 25 },
+//   { nome: "Caneta", preco: 5 },
+// ];
+
+// function buscarProduto(produtos, nomeProduto) {
+//   for (let i = 0; i < produtos.length; i++) {
+//     if (nomeProduto === produtos[i].nome) {
+//       return produtos[i];
+//     }
+//   }
+//   return null;
+// }
+
+// function calcularSubtotal(produtos, nomeProduto, quantidade) {
+//   let valorProduto = buscarProduto(produtos, nomeProduto).preco;
+//   if (valorProduto === null) {
+//     return 0;
+//   }
+//   return valorProduto * quantidade;
+// }
+
+// function calcularFrete(valorSubtotal) {
+//   if (valorSubtotal < 50) {
+//     return 10;
+//   } else {
+//     return 0;
+//   }
+// }
+
+// function calcularTotalPedido(produtos, nomeProduto, quantidade) {
+//   let valorSubtotal = calcularSubtotal(produtos, nomeProduto, quantidade);
+//   let valorFrete = calcularFrete(valorSubtotal);
+//   return valorSubtotal + valorFrete;
+// }
+
+// console.log(calcularTotalPedido(produtos, "Livro", 1));
+
+// const usuarios = [
+//   { nome: "Ana", role: "admin" },
+//   { nome: "Bruno", role: "editor" },
+//   { nome: "Carla", role: "visitante" },
+// ];
+
+// function buscarUsuario(usuarios, nomeUsuario) {
+//   for (let i = 0; i < usuarios.length; i++) {
+//     if (nomeUsuario === usuarios[i].nome) {
+//       return usuarios[i];
+//     }
+//   }
+//   return null;
+// }
+
+// function podeEditar(usuario) {
+//   if (usuario === "admin") {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function podeExcluir(usuario) {
+//   if (usuario === "admiin") {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function verificarPermissoes(usuarios, nomeUsuario) {
+//   let nomeUsuarioObjeto = buscarUsuario(usuarios, nomeUsuario).nome;
+//   let roleUsuario = buscarUsuario(usuarios, nomeUsuario).role;
+//   let editarUsuario = podeEditar(roleUsuario);
+//   let excluirUsuario = podeExcluir(roleUsuario);
+//   let objeto = {
+//     nome: nomeUsuarioObjeto,
+//     editar: editarUsuario,
+//     excliur: excluirUsuario,
+//   };
+//   return console.log(objeto);
+// }
+
+// console.log(verificarPermissoes(usuarios, "Carla"));
+
+// let string = "Olá, mundo!";
+
+// console.log(string.slice(0, 3)); //extrai o valor, ignorando o resto
+
+// console.log(string.substring(0, 3)); //extrai o valor
+
+// console.log(string.replace("Olá,", "Oláa,")); //Não substitui o valor original
+// console.log(string.indexOf("O")); //Informa o index do elemento passado.
+
+// let texto = "laranja     maça  uva ";
+// console.log(texto.split(/\s+/));
+
+// let texto1 = "laranja, maça, uva";
+// console.log(texto1.split(","));
+
+// let texto2 = "laranja, maça, uva";
+// console.log(texto2.split(",", 2));
 
