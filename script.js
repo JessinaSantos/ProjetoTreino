@@ -468,3 +468,23 @@
 // let texto2 = "laranja, maça, uva";
 // console.log(texto2.split(",", 2));
 
+// let texto = "JavaScript é divertido!";
+// let novoTexto = texto.replace("JavaScript", "JavaScript".toUpperCase());
+
+// console.log(novoTexto);
+
+// let string = "Aprendendo JavaScript";
+// let novaString = string.slice(0, 10).toLowerCase();
+// console.log(novaString);
+
+// let array = ["carro", "bola", "tv"];
+
+// array.push("ovo", "maçã"); //Adciona novos elementos ao final do array
+// array.unshift("Laranja", "Maracarrão"); //Adiciona novos elementos no começo do array
+// console.log(array);
+
+// array.pop(); //Remove elementos ao final do array
+// array.shift(); // Remove elemente no inicio do array
+// console.log(array);
+
+
