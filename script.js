@@ -487,4 +487,31 @@
 // array.shift(); // Remove elemente no inicio do array
 // console.log(array);
 
+let letras = ["e", "b", "a", "d", "c", "f"];
+let numeros = [5, 4, 6, 3, 1, 2];
 
+letras.sort(); //ordena os elemento de acordo com as suas regras. Para a listagem de letras, ele consegue ordernar, mas para a listagem de número, ele ordena a partit da sua regra
+
+letras.reverse(); // reverte a ordem da lista
+
+let mesclarLista = letras.concat(numeros); // junta as duas listas
+
+let frutas = ["maçã", "uva", "laranja"];
+console.log(frutas.indexOf("uva"));
+
+// console.log(frutas.splice(1, 1)); //onde começa e a quantidade de elemento que deseja retornar/ele tbm remove elementos.
+// console.log(frutas.splice(0, 1, "ovo")); //substituir um elemento - inicio, quantidade, valor de substituição
+// console.log(frutas);
+
+// console.log(frutas.includes("laranja")); //Verifica se há o elemento na lista e retorna um boleano.
+// console.log(
+//   frutas.every(function (frutas) {
+//     return frutas.includes("m");
+//   }),
+// ); // todos os elementos precisam ter a condição atendida
+// console.log(
+//   frutas.some(function (frutas) {
+//     return frutas.includes("m");
+//   }),
+// ); // Pelo menos um elemento deve ser verdadeiro
+// -console.log(frutas.join()); //junta os elementos da lista formando um único texto. Se não por nenhum arumento, ele separa por vígulas. Ou pode ser .join(" ")
