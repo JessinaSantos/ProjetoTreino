@@ -598,3 +598,46 @@
 // }
 
 // console.log(somarValores([4, 6]));
+
+// let objeto = [
+//   { nome: "Ana", idade: 20 },
+//   { nome: "Bruno", idade: 17 },
+//   { nome: "Carla", idade: 19 },
+// ];
+
+// function listarNomes(usuarios) {
+//   let nomes = [];
+//   for (let i = 0; i < usuarios.length; i++) {
+//     if (usuarios[i].idade > 18) {
+//       nomes.push(usuarios[i].nome);
+//     }
+//   }
+//   return nomes;
+// }
+
+// console.log(listarNomes(objeto));
+
+// let texto = "olá, mundo!";
+
+// let textoLimpo = texto.trim();
+// let indexEspaco = textoLimpo.indexOf(" ");
+// if (indexEspaco === -1) {
+//   texto = textoLimpo;
+// } else {
+//   texto = textoLimpo.slice(0, indexEspaco);
+// }
+
+// console.log(texto);
+
+// let texto = "Olá, mundo!";
+
+// let textoLimpo = texto.trim();
+// let indexTexto = texto.lastIndexOf(" ");
+
+// if (indexTexto === -1) {
+//   texto = textoLimpo;
+// } else {
+//   texto = textoLimpo.slice(indexTexto);
+// }
+
+// console.log(texto);
