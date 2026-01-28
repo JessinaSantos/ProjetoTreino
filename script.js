@@ -515,3 +515,20 @@ console.log(frutas.indexOf("uva"));
 //   }),
 // ); // Pelo menos um elemento deve ser verdadeiro
 // -console.log(frutas.join()); //junta os elementos da lista formando um único texto. Se não por nenhum arumento, ele separa por vígulas. Ou pode ser .join(" ")
+
+const produto = {
+  nome: "Laptop",
+  preco: 1500,
+  disponibilidade: true,
+};
+const recebeProduto = {};
+
+console.log(Object.keys(produto)); //retorna as chaves do objeto
+console.log(Object.values(produto)); //retorna o valor do objeto
+console.log(Object.entries(produto)); //cria uma lista das chaves/valor do objeto, dentro de outra lista
+console.log(Object.assign(produto, { emEstoque: 2, categoria: "Eletrônicos" })); //Copia as propriedade do objeto e adiciona uma nova
+console.log(Object.assign(recebeProduto, produto));
+console.log(
+  Object.defineProperty(produto, "disponibilidade", { value: false }),
+); //Altera o valor de uma propriedade. Também consegue adicionar
+delete recebeProduto.categoria;
