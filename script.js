@@ -487,17 +487,17 @@
 // array.shift(); // Remove elemente no inicio do array
 // console.log(array);
 
-let letras = ["e", "b", "a", "d", "c", "f"];
-let numeros = [5, 4, 6, 3, 1, 2];
+// let letras = ["e", "b", "a", "d", "c", "f"];
+// let numeros = [5, 4, 6, 3, 1, 2];
 
-letras.sort(); //ordena os elemento de acordo com as suas regras. Para a listagem de letras, ele consegue ordernar, mas para a listagem de número, ele ordena a partit da sua regra
+// letras.sort(); //ordena os elemento de acordo com as suas regras. Para a listagem de letras, ele consegue ordernar, mas para a listagem de número, ele ordena a partit da sua regra
 
-letras.reverse(); // reverte a ordem da lista
+// letras.reverse(); // reverte a ordem da lista
 
-let mesclarLista = letras.concat(numeros); // junta as duas listas
+// let mesclarLista = letras.concat(numeros); // junta as duas listas
 
-let frutas = ["maçã", "uva", "laranja"];
-console.log(frutas.indexOf("uva"));
+// let frutas = ["maçã", "uva", "laranja"];
+// console.log(frutas.indexOf("uva"));
 
 // console.log(frutas.splice(1, 1)); //onde começa e a quantidade de elemento que deseja retornar/ele tbm remove elementos.
 // console.log(frutas.splice(0, 1, "ovo")); //substituir um elemento - inicio, quantidade, valor de substituição
@@ -516,19 +516,37 @@ console.log(frutas.indexOf("uva"));
 // ); // Pelo menos um elemento deve ser verdadeiro
 // -console.log(frutas.join()); //junta os elementos da lista formando um único texto. Se não por nenhum arumento, ele separa por vígulas. Ou pode ser .join(" ")
 
-const produto = {
-  nome: "Laptop",
-  preco: 1500,
-  disponibilidade: true,
-};
-const recebeProduto = {};
+// const produto = {
+//   nome: "Laptop",
+//   preco: 1500,
+//   disponibilidade: true,
+// };
+// const recebeProduto = {};
 
-console.log(Object.keys(produto)); //retorna as chaves do objeto
-console.log(Object.values(produto)); //retorna o valor do objeto
-console.log(Object.entries(produto)); //cria uma lista das chaves/valor do objeto, dentro de outra lista
-console.log(Object.assign(produto, { emEstoque: 2, categoria: "Eletrônicos" })); //Copia as propriedade do objeto e adiciona uma nova
-console.log(Object.assign(recebeProduto, produto));
-console.log(
-  Object.defineProperty(produto, "disponibilidade", { value: false }),
-); //Altera o valor de uma propriedade. Também consegue adicionar
-delete recebeProduto.categoria;
+// console.log(Object.keys(produto)); //retorna as chaves do objeto
+// console.log(Object.values(produto)); //retorna o valor do objeto
+// console.log(Object.entries(produto)); //cria uma lista das chaves/valor do objeto, dentro de outra lista
+// console.log(Object.assign(produto, { emEstoque: 2, categoria: "Eletrônicos" })); //Copia as propriedade do objeto e adiciona uma nova
+// console.log(Object.assign(recebeProduto, produto));
+// console.log(
+//   Object.defineProperty(produto, "disponibilidade", { value: false }),
+// ); //Altera o valor de uma propriedade. Também consegue adicionar
+// delete recebeProduto.categoria;
+
+// function contarCaracteres(texto) {
+//   return texto.length;
+// }
+
+// console.log(contarCaracteres("jessy"));
+
+function obterPrimeiraPalavra(texto) {
+  let textoLimpo = texto.trim();
+  let indiceLimpo = textoLimpo.indexOf(" ");
+
+  if (indiceLimpo === -1) {
+    return textoLimpo;
+  }
+  return texto.slice(0, indiceLimpo);
+}
+
+console.log(obterPrimeiraPalavra("Aprendendo JavaScript"));
