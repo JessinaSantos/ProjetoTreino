@@ -539,14 +539,62 @@
 
 // console.log(contarCaracteres("jessy"));
 
-function obterPrimeiraPalavra(texto) {
-  let textoLimpo = texto.trim();
-  let indiceLimpo = textoLimpo.indexOf(" ");
+// function obterPrimeiraPalavra(texto) {
+//   let textoLimpo = texto.trim();
+//   let indiceLimpo = textoLimpo.indexOf(" ");
 
-  if (indiceLimpo === -1) {
-    return textoLimpo;
-  }
-  return texto.slice(0, indiceLimpo);
-}
+//   if (indiceLimpo === -1) {
+//     return textoLimpo;
+//   }
+//   return texto.slice(0, indiceLimpo);
+// }
 
-console.log(obterPrimeiraPalavra("Aprendendo JavaScript"));
+// console.log(obterPrimeiraPalavra("Aprendendo JavaScript"));
+
+// function converterParaMaiusculo(texto) {
+//   return texto.toUpperCase();
+// }
+
+// console.log(converterParaMaiusculo("olá"));
+
+// function substituirPalavra(texto, palavraAntiga, palavraNova) {
+//   let textoLimpo = texto.trim();
+//   return textoLimpo.replace(palavraAntiga, palavraNova);
+// }
+
+// console.log(substituirPalavra("JavaScript é difícil", "difícil", "fácil"));
+
+// let array = [1, 2, 3, 4];
+
+// function dobrarNumeros(numeros) {
+//   let novoArray = [];
+//   for (let i = 0; i < numeros.length; i++) {
+//     novoArray.push(numeros[i] * 2);
+//   }
+//   return novoArray;
+// }
+// console.log(dobrarNumeros(array));
+
+// let numeros = [4, 9, 10, 12, 6, 20];
+
+// function filtrarMaioresQueDez(numeros) {
+//   let novoArray = [];
+//   for (let i = 0; i < numeros.length; i++) {
+//     if (numeros[i] > 10) {
+//       novoArray.push(numeros[i]);
+//     }
+//   }
+//   return novoArray;
+// }
+
+// console.log(filtrarMaioresQueDez(numeros));
+
+// function somarValores(numeros) {
+//   let soma = 0;
+//   for (let i = 0; i < numeros.length; i++) {
+//     soma = soma + numeros[i];
+//   }
+//   return soma;
+// }
+
+// console.log(somarValores([4, 6]));
